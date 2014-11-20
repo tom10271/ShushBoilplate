@@ -1,0 +1,26 @@
+body header.head {
+    @include select(none);
+    cursor: default;
+    position: relative;
+    height: 35pt;
+    background-color: rgba(216, 216, 216, 0.55);
+    margin-bottom: 10pt;
+    border-bottom: 1px block solid;
+
+    @include responsive('midget') {
+        background: none;
+    }
+}
+
+.shush-blockItem{
+    padding: 8pt 10pt;
+
+    margin: 5pt 0;
+    h1{
+        font-size: 24pt;
+    }
+
+    span{
+        font-size: 16pt;
+    }
+}

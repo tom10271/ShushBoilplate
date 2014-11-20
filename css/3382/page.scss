@@ -1,0 +1,43 @@
+section#mainContent, \:section#mainContent {
+    @import 'about';
+    @import 'items';
+}
+
+#fyp {
+    section.items, \:section.items {
+        padding: 25pt;
+        background-color: rgba(250, 250, 250, .85);
+
+        h2 {
+            font-weight: 400;
+            color: red;
+            font-size: 24pt;
+            margin-top: 25pt;
+        }
+
+        h2:first-child{
+            margin-top: none;
+        }
+
+        ol, ul {
+            margin-left: 25pt;
+        }
+
+        ol li {
+            list-style: disc;
+            color: navy;
+            font-size: 14pt;
+            line-height: 1.5em;
+        }
+
+        ul li {
+            list-style: disc;
+            color: navy;
+            font-size: 14pt;
+            line-height: 1.5em;
+
+            a {
+            }
+        }
+    }
+}

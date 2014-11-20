@@ -1,0 +1,8 @@
+html.ie11 body {
+  line-height: 1.2; }
+  html.ie11 body .nav-list ul {
+    top: -10pt; }
+  html.ie11 body section#mainContent section.content section.wrap.items, html.ie11 body section#mainContent section.content \:section.wrap.items, html.ie11 body section#mainContent \:section.content section.wrap.items, html.ie11 body section#mainContent \:section.content \:section.wrap.items, html.ie11 body \:section#mainContent section.content section.wrap.items, html.ie11 body \:section#mainContent section.content \:section.wrap.items, html.ie11 body \:section#mainContent \:section.content section.wrap.items, html.ie11 body \:section#mainContent \:section.content \:section.wrap.items {
+    position: absolute;
+    bottom: 10pt;
+    top: 82pt; }

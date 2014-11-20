@@ -1,0 +1,10 @@
+/* Webfont: SourceSansPro-ExtraLightIt */
+@font-face {
+  font-family: 'SourceSansProExtraLight';
+  src: url("/web/css/font/fontface/SourceSansPro-ExtraLightIt.eot");
+  /* IE9 Compat Modes */
+  src: url("/web/css/font/fontface/SourceSansPro-ExtraLightIt.eot?#iefix") format("embedded-opentype"), url("/web/css/font/fontface/SourceSansPro-ExtraLightIt.woff") format("woff"), url("/web/css/font/fontface/SourceSansPro-ExtraLightIt.ttf") format("truetype"), url("/web/css/font/fontface/SourceSansPro-ExtraLightIt.svg#SourceSansPro-ExtraLightIt") format("svg");
+  /* Legacy iOS */
+  font-style: italic;
+  font-weight: normal;
+  text-rendering: optimizeLegibility; }

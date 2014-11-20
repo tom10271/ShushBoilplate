@@ -1,0 +1,67 @@
+[
+    {
+        "keywords": ["about howard", "home page", "homepage", "homepages"],
+        "location": "/"
+    },
+    {
+        "keywords": ["public connection", "put on ashens", "public on aAshens", "public on aAshes", "public coarnation", "public connection", "public relations", "public announcement"],
+        "location": "/public-connection"
+    },
+    {
+        "keywords": ["public duty", "public duties", "public booty", "print duty", "probabilitiy"],
+        "location": "/public-connection/public-duty"
+    },
+    {
+        "keywords": ["Paper Reviewers", "Paper Reviewer", "PayPal rivera", "PayPal rivera's", "paper rivera", "pay by rivera", "pay the riveras", "pay the rivera"],
+        "location": "/public-connection/paper-reviewers"
+    },
+    {
+        "keywords": ["Awards", "awards", "award", "abort", "iowa", "i want", "Oz", "a loss", "a boss", "alarm", "a ball", "a walk"],
+        "location": "/awards"
+    },
+    {
+        "keywords": ["Courses Offered", "course", "course offer", "course offered", "causes of oz", "cause of oz", "causes of art", "cause of art", "causes over", "cause over", "crossover", "closest over", "court over", "courses", "counts over", "court", "kosava", "coast", "cordova"],
+        "location": "/courses-offered"
+    },
+    {
+        "keywords": ["fellow students", "fast food", "fellow student", "student", "students", "federal student", "federal students", "photo student", "photo students", "fat of students", "fat of student", "federal", "front of student", "front of students"],
+        "location": "/fellow-students"
+    },
+    {
+        "keywords": ["doctoral degree", "doctor degree", "doctor a degree", "the doctor degree"],
+        "location": "/fellow-students/doctoral"
+    },
+    {
+        "keywords": ["master degree", "monster degree", "master"],
+        "location": "/fellow-students/master"
+
+    },
+    {
+        "keywords": ["fyp", "yp", "final year project", "final year projects", "Avon", "Ivy", "apple id"],
+        "location": "/fyp"
+    },
+    {
+        "keywords": ["3d motion lab", "motion lab", "motion laboratory", "motion light", "move a lot", "motion", "motion a", "Mozilla", "muscle up", "mercer lottery", "Mozilla Boise", "motion app"],
+        "location": "/motion-lab"
+    },
+    {
+        "keywords": ["research projects", "results projects", "results products", "research project"],
+        "location": "/research-projects"
+    },
+    {
+        "keywords": ["publications", "publication", "probation", "public asian"],
+        "location": "/publications"
+    },
+    {
+        "keywords": ["conference", "convert", "culverls", "culverl"],
+        "location": "/publications/conference"
+    },
+    {
+        "keywords": ["editorship", "at the district", "edit a ship", "edit a jet", "atlanta GA", "edit your ship", "at the hip", "at a ship", "at the ship", "editor", "edit it", "a digit", "other ship", "other as you"],
+        "location": "/publications/editorship"
+    },
+    {
+        "keywords": ["journal", "jelly", "jello", "john", "general", "john o", "jungle", "jungles", "juggle"],
+        "location": "/publications/journal"
+    }
+]

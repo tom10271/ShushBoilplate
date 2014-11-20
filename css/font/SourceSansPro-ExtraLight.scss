@@ -1,0 +1,12 @@
+/* Webfont: SourceSansPro-ExtraLight */@font-face {
+    font-family: 'SourceSansProExtraLight';
+    src: url('/web/css/font/fontface/SourceSansPro-ExtraLight.eot'); /* IE9 Compat Modes */
+    src: url('/web/css/font/fontface/SourceSansPro-ExtraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/web/css/font/fontface/SourceSansPro-ExtraLight.woff') format('woff'), /* Modern Browsers */
+         url('/web/css/font/fontface/SourceSansPro-ExtraLight.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/web/css/font/fontface/SourceSansPro-ExtraLight.svg#SourceSansPro-ExtraLight') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

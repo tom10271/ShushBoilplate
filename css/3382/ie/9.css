@@ -1,0 +1,8 @@
+body {
+  line-height: 1.2; }
+  body .nav-list ul {
+    top: -10pt; }
+  body section#mainContent section.content section.wrap.items, body section#mainContent section.content \:section.wrap.items, body section#mainContent \:section.content section.wrap.items, body section#mainContent \:section.content \:section.wrap.items, body \:section#mainContent section.content section.wrap.items, body \:section#mainContent section.content \:section.wrap.items, body \:section#mainContent \:section.content section.wrap.items, body \:section#mainContent \:section.content \:section.wrap.items {
+    position: absolute;
+    bottom: 10pt;
+    top: 82pt; }

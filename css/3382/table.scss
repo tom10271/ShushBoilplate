@@ -1,0 +1,25 @@
+ul.table {
+    display: table;
+
+    li {
+        display: table-row;
+
+        .table-col {
+            display: table-cell;
+
+            &.title {
+                font-size: 14pt;
+                color: #000;
+            }
+
+            &.content {
+                font-size: 16pt;
+                color: #000;
+            }
+
+            &.text-block {
+                color: #000;
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@mixin responsive($point) {
+    @if $point == giant {
+        @media (max-width: 80em) { @content; }
+    }
+    @else if $point == human {
+        @media (max-width: 64em) { @content; }
+    }
+    @else if $point == midget {
+        @media (max-width: 48em)  { @content; }
+    }
+}

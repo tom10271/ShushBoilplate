@@ -1,0 +1,34 @@
+@import 'common';
+
+nav ul{
+    li section.item {
+        position: relative;
+        section.background{
+            z-index: -1;
+            height: 100%;
+            position: absolute;
+            width: 100%;
+            max-width: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(247, 247, 247, 0.17);
+            @include transform(scaleY(0));
+            @include transform-origin(left bottom);
+            @include transition(all, .3s, ease-in);
+        }
+    }
+
+    li:hover>section.item section.background, section.item.current_ancestor section.background {
+        background-color: rgb(247, 247, 247);
+        @include transform(scaleY(1));
+        @include transform-origin(left bottom);
+        @include transition(all, .3s, ease-in);
+    }
+
+    li:hover{
+        //@include responsive('midget'){
+        //    border-left: 10pt #ccc solid;
+        //    @include transition(all, .3s, ease-in);
+        //}
+    }
+}

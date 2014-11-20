@@ -1,0 +1,72 @@
+/*
+Syntax error: Undefined variable: "$title".
+        on line 4 of about.scss
+
+1: #home {
+2:     span.name {
+3:         font-size: 36pt;
+4:         color: $title;
+5:     }
+6: 
+7:     span.edu {
+8:         font-style: italic;
+9:         color: $textM;
+
+Backtrace:
+about.scss:4
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/variable.rb:49:in `_perform'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/script/node.rb:40:in `perform'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:296:in `visit_prop'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:7:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/engine.rb:315:in `_render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/engine.rb:262:in `render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:341:in `update_stylesheet'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:201:in `each'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin.rb:81:in `update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/exec.rb:424:in `watch_or_update'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/exec.rb:307:in `process_result'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/exec.rb:41:in `parse'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/exec.rb:21:in `parse!'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/bin/scss:8:in `<top (required)>'
+C:/Ruby193/bin/scss:23:in `load'
+C:/Ruby193/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$title\".\A         on line 4 of about.scss\A \A 1: #home {\A 2:     span.name {\A 3:         font-size: 36pt;\A 4:         color: $title;\A 5:     }\A 6: \A 7:     span.edu {\A 8:         font-style: italic;\A 9:         color: $textM;"; }

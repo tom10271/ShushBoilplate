@@ -1,0 +1,128 @@
+section.shush-item-grid, \:section.shush-item-grid {
+    background: rgba(240, 240, 240, 0.35);
+    position: relative;
+
+    header {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding: 15pt;
+        background: rgb(247, 247, 247);
+        @include box-shadow(0, 10px, 20px, -5px, gray);
+
+        @include responsive('midget') {
+            position: relative;
+            bottom: auto;
+            top: auto;
+            left: auto;
+            right: auto;
+        }
+
+        >h1 {
+            display: inline-block;
+            color: #000D6B;
+            font-size: 42pt;
+            position: relative;
+            left: 9pt;
+
+            @include responsive("midget") {
+                width: 100%;
+                font-size: 32pt;
+            }
+        }
+        >.searchField {
+            float: right;
+            display: inline-block;
+
+            @include responsive("midget") {
+                float: initial;
+                padding-left: 12pt;
+            }
+
+            #search {
+                @include box-shadow(0, 0, 0pt, #8AFDF9);
+            }
+
+            #search:focus {
+                @include transition(all, 0.3s, ease-in);
+                @include box-shadow(0, 0, 15pt, #8AFDF9);
+            }
+        }
+    }
+}
+
+section.wrap.items.col-2, \:section.wrap.items.col-2 {
+    @include columns(2, 10);
+
+    @include responsive('human') {
+        @include columns(1, 10);
+    }
+}
+
+section.wrap.items, \:section.wrap.items {
+    position: absolute;
+    bottom: 40pt;
+    top: 72pt;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    @include responsive('midget') {
+        position: relative;
+        bottom: auto;
+        top: auto;
+        left: auto;
+        right: auto;
+        width: 100%;
+    }
+
+    .item {
+        -webkit-column-break-inside: avoid;
+        -moz-column-break-inside: avoid;
+        column-break-inside: avoid;
+        background-color: #e3e3e3;
+        margin: 10pt;
+        @include border-radius(5px);
+        @include transition(all, .3, ease-in);
+        text-align: justify;
+
+        h1 {
+            font-size: 24pt;
+            color: $title;
+            padding-bottom: 5pt;
+            @include responsive('midget') {
+                font-size: 18pt;
+            }
+        }
+
+        span {
+            line-height: 1.3em;
+            color: $textL;
+        }
+
+        span.subContent {
+            color: $textL;
+            float: right;
+        }
+    }
+
+    .item:hover {
+        @include transition(all, .3s, ease-in);
+        @include box-shadow(0, 0, 10px, rgba(219, 90, 90, 0.81));
+    }
+}
+
+.conference-common {
+    section.wrap.items, \:section.wrap.items{
+        .item h1 {
+            line-height: 1.3em;
+            color: #1D3E52;
+            font-size: 18pt;
+        }
+
+        .item h1:hover{
+            @include transition(all, .3s, ease-in);
+            color: #1D3E52;
+        }
+    }
+}

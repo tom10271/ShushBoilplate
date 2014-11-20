@@ -1,0 +1,74 @@
+/*
+Syntax error: Undefined mixin 'box-shadow'.
+        on line 12 of items.scss, in `box-shadow'
+        from line 12 of items.scss
+
+7:         left: 0;
+8:         right: 0;
+9:         top: 0;
+10:         padding: 15pt;
+11:         background: rgb(247, 247, 247);
+12:         @include box-shadow(0, 10px, 20px, -5px, gray);
+13: 
+14:         @include responsive('midget') {
+15:             position: relative;
+16:             bottom: auto;
+17:             top: auto;
+
+Backtrace:
+items.scss:12:in `box-shadow'
+items.scss:12
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:251:in `visit_mixin'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:7:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/engine.rb:315:in `_render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/engine.rb:262:in `render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:341:in `update_stylesheet'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:201:in `each'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin.rb:81:in `update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/exec.rb:424:in `watch_or_update'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/exec.rb:307:in `process_result'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/exec.rb:41:in `parse'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/exec.rb:21:in `parse!'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/bin/scss:8:in `<top (required)>'
+C:/Ruby193/bin/scss:23:in `load'
+C:/Ruby193/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'box-shadow'.\A         on line 12 of items.scss, in `box-shadow'\A         from line 12 of items.scss\A \A 7:         left: 0;\A 8:         right: 0;\A 9:         top: 0;\A 10:         padding: 15pt;\A 11:         background: rgb(247, 247, 247);\A 12:         @include box-shadow(0, 10px, 20px, -5px, gray);\A 13: \A 14:         @include responsive('midget') {\A 15:             position: relative;\A 16:             bottom: auto;\A 17:             top: auto;"; }

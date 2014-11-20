@@ -1,0 +1,11 @@
+<div class="shush-onClickEdit">
+<div ng-hide="view.editorEnabled">
+    {{value}}
+    <a ng-click="enableEditor()">Edit</a>
+    </div>
+<div ng-show="view.editorEnabled">
+    <input ng-model="view.editableValue">
+    <a href="#" ng-click="save()">Save</a>
+    <a ng-click="disableEditor()">cancel</a>
+    </div> 
+</div>

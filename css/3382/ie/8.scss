@@ -1,0 +1,34 @@
+@import 'common';
+
+.ie8{
+    body {
+        header {
+            background: transparent;
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#72EFEFEF,endColorstr=#72EFEFEF)";
+            /* IE8 */
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#72EFEFEF, endColorstr=#72EFEFEF);
+            /* IE6 & 7 */
+            zoom: 1;
+
+            nav ul li {
+                background: transparent;
+                -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#A5DEDEDE,endColorstr=#A5DEDEDE)";
+                /* IE8 */
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A5DEDEDE, endColorstr=#A5DEDEDE);
+                /* IE6 & 7 */
+                zoom: 1;
+            }
+        }
+        section#mainContent, \:section#mainContent{
+            \:section, section{
+                display: block;
+                background: transparent;
+                -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#A5DEDEDE,endColorstr=#A5DEDEDE)";
+                /* IE8 */
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A5DEDEDE, endColorstr=#A5DEDEDE);
+                /* IE6 & 7 */
+                zoom: 1;
+            }
+        }
+    }
+}

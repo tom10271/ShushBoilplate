@@ -1,0 +1,60 @@
+/*
+Syntax error: Undefined mixin 'select'.
+        on line 2 of common.scss, in `select'
+        from line 2 of common.scss
+
+1: body header {
+2:     @include select(none);
+3:     cursor: default;
+4:     position: relative;
+5:     height: 35pt;
+6:     background-color: rgba(216, 216, 216, 0.55);
+7:     margin-bottom: 10pt;
+
+Backtrace:
+common.scss:2:in `select'
+common.scss:2
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:251:in `visit_mixin'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/base.rb:37:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:98:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/visitors/perform.rb:7:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/engine.rb:315:in `_render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/engine.rb:262:in `render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:341:in `update_stylesheet'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:201:in `each'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/plugin.rb:81:in `update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/exec.rb:424:in `watch_or_update'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/exec.rb:307:in `process_result'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/exec.rb:41:in `parse'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/lib/sass/exec.rb:21:in `parse!'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.3/bin/scss:8:in `<top (required)>'
+C:/Ruby193/bin/scss:23:in `load'
+C:/Ruby193/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'select'.\A         on line 2 of common.scss, in `select'\A         from line 2 of common.scss\A \A 1: body header {\A 2:     @include select(none);\A 3:     cursor: default;\A 4:     position: relative;\A 5:     height: 35pt;\A 6:     background-color: rgba(216, 216, 216, 0.55);\A 7:     margin-bottom: 10pt;"; }

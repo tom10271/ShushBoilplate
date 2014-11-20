@@ -1,0 +1,58 @@
+[
+    {
+        "fundingSource": "Hong Kong Examination Assessment Authority",
+        "fundingAmount": "$470,000",
+        "projectTitle": "A New Assessment Tool for Determining Exlia Time Allowance Given in Public Examinations for Candidates with Physical Disabilities",
+        "role": "Principle Investigator",
+        "date": "Sep . 2010 – Aug. 2012"
+    },
+    {
+        "fundingSource": "RGC General Research Fund (GRF)",
+        "fundingAmount": "$415,608",
+        "projectTitle": "Measuring the Perceptual Similarity between Sets of Two People's Interactive Motions in a Coarse-to-Fine Manner",
+        "role": "Principle Investigator",
+        "date": "Nov . 2009 – Oct. 2011"
+    },
+    {
+        "fundingSource": "Quality Education Fund (QEF)",
+        "fundingAmount": "$2,478,500",
+        "projectTitle": "A Chinese Handwriting Assessment Tool (CHAT) for Assessment &amp; Evaluating Handwriting Performance of Primary School Children in Hong Kong",
+        "role": "Co-Investigator",
+        "date": "Aug. 2008 – Jul. 2010"
+    },
+    {
+        "fundingSource": "CityU Strategic Research Grant (SRG)",
+        "fundingAmount": "$180,000",
+        "projectTitle": "Automatic Image Content Adaptation for e-Comic Viewing in Handheld Devices",
+        "role": "Principle Investigator",
+        "date": "Apr. 2006 – Sep. 2008"
+    },
+    {
+        "fundingSource": "Competitive Earmarked Research Grant (CERG)",
+        "fundingAmount": "$346,240",
+        "projectTitle": "3D Human Motion Reliieval",
+        "role": "Principle Investigator",
+        "date": "Oct. 2005 – Mar. 2008"
+    },
+    {
+        "fundingSource": "Competitive Earmarked Research Grant (CERG)",
+        "fundingAmount": "$538,836",
+        "projectTitle": "Simulation of Scenes with Multiple Densely-Interacting Characters",
+        "role": "Principle Investigator",
+        "date": "Jul. 2005 – Dec. 2008"
+    },
+    {
+        "fundingSource": "CityU Strategic Research Grant for fundable CERG (SRG-Fd)",
+        "fundingAmount": "$180,000",
+        "projectTitle": "VACHE (Virtual Assistant for Chinese Handwriting Education)",
+        "role": "Principle Investigator",
+        "date": "Dec. 2004 – May 200 7"
+    },
+    {
+        "fundingSource": "CityU Strategic Research Grant (SRG)",
+        "fundingAmount": "$180,000",
+        "projectTitle": "Model-based Analysis of Chinese Calligraphy Images for Virtual Brush Synthesis",
+        "role": "Principle Investigator",
+        "date": "Jul. 2004 – Jun. 2006"
+    }
+] 

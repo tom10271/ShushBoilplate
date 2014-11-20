@@ -1,0 +1,120 @@
+$panelBG: rgba(252, 252, 252, .9);
+$title: #D74B4B;
+$bg: #DCDDD8;
+$textL: #475F77;
+$textM: #354B5E;
+$white: #FFFFFF;
+
+\:section{
+    display: block;
+}
+
+body {
+    font-family: 'Source Sans Pro', "Ryo Gothic PlusN L", myriad pro, Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    width: 100%;
+
+    em{
+        font-style: italic;
+    }
+
+    header.head {
+        position: fixed;
+        min-width: 10px;
+        z-index: 1000;
+        @include responsive('midget') {
+            position: static;
+            width: 100% !important;
+            height: auto !important;
+        }
+
+        nav {
+             position: relative;
+             display: inline-block;
+             top: 20%;
+
+             >nav, >section {
+                 display: inline-block;
+             }
+
+             @include responsive('human') {
+                 width: auto;
+                 top: 0%;
+             }
+
+             @include responsive('midget') {
+                 position: static;
+                 width: 100%;
+                 overflow: hidden;
+                 margin-bottom: 100px;
+             }
+         }
+    }
+
+    section.voiceCommand, \:section.voiceCommand{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        section.voiceCommand, \:section.voiceCommand{
+            margin: auto;
+        }
+    }
+
+    section#mainContent, \:section#mainContent{
+        position: fixed;
+        top: 0;
+        left: 50pt;
+        right: 20pt;
+        bottom: 0;
+        @include responsive('human') {
+            top: auto;
+            left: 30pt;
+            right: 0;
+        }
+
+        @include responsive('midget') {
+            position: relative;
+            bottom: auto;
+            top: auto;
+            left: auto;
+            right: auto;
+        }
+
+        a {
+            color: $textL;
+            border-bottom: 1px dotted $textM;
+            @include transition(all, .3s, ease-in);
+        }
+
+        a:hover{
+            color: #B6118F;
+            border: none;
+            @include transition(all, .3s, ease-in);
+        }
+
+        section.content, \:section.content{
+            margin: 0 auto;
+            width: 90%;
+            max-width: 1280px;
+            height: 100%;
+            padding: 15pt;
+            position: relative;
+
+            @include responsive('midget') {
+                padding: 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
+#home{
+    section.wrap, \:section.wrap{
+        max-width: 1280px;
+        width:100%;
+    }
+}

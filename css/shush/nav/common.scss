@@ -1,0 +1,141 @@
+$borderColor: #B8B8B8;
+
+nav {
+    @include responsive('human') {
+        width: 100%;
+    }
+
+    ul {
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 400;
+        display: inline-table;
+        position: relative;
+
+        @include responsive('human') {
+            width: 100%;
+        }
+
+        li {
+            position: relative;
+            height: 36pt;
+            padding-right: 15px;
+
+            @include responsive('midget') {
+                padding-right: 0;
+            }
+
+            section.item {
+                height: 36pt;
+                background-color: rgba(247, 247, 247, 0.7);
+                border-top: 1pt $borderColor solid;
+                border-right: 1pt $borderColor solid;
+                display: table;
+                padding-right: 15px;
+                width: 100%;
+                z-index: 1;
+                text-align: right;
+
+                section.background {
+                    background-color: #fff;
+                }
+
+                @include responsive('human') {
+                    background-color: rgba(247, 247, 247, 0.9);
+                }
+
+                @include responsive('midget') {
+                    text-align: left;
+                    padding-left: 15px;
+                    padding-right: 0;
+                }
+            }
+        }
+
+        li:hover{
+            height: auto;
+        }
+
+        >li {
+            border-left: 1px $borderColor solid;
+        }
+
+        >li:last-child span.item{
+            border-right: 1px $borderColor solid;
+            @include responsive('human') {
+                border-bottom: 1pt $borderColor solid;
+            }
+        }
+
+        section.wrap {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        a, span {
+            color: #6D5151;
+            font-size: 16pt;
+            white-space: nowrap;
+            text-decoration: none;
+        }
+
+        a>span {
+
+        }
+
+        a:hover {
+            color: #000;
+            @include text-shadow(0, 0, 3pt, #fff);
+        }
+        .current_ancestor {
+            cursor: default;
+        }
+
+        .current_ancestor {
+            //background-color: #ccc;
+            //color: #000;
+            //@include text-shadow(0, 0, 0);
+
+            //@include responsive('human') {
+            //    border-left: 10pt #ccc solid;
+            //}
+        }
+
+        .nav-list{
+            position: absolute;
+            z-index: 1000;
+            padding: 0pt;
+            top: 0;
+            visibility: hidden;
+            left: 100%;
+            @include responsive('midget') {
+                position: relative;
+                left: 0;
+            }
+            li {
+                float: none;
+                position: relative;
+                .item{
+                    border-left: 10pt #ccc solid;
+                }
+            }
+
+            .nav-list{
+                position: absolute;
+                top: 0;
+                left: 100%;
+                display: table;
+                width: 100%;
+
+                @include responsive('midget') {
+                    position: relative;
+                    left: 0;
+                }
+            }
+        }
+
+        li:hover>section.nav-list{
+            visibility: visible;
+        }
+    }
+}

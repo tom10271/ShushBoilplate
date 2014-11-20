@@ -1,0 +1,71 @@
+[
+    {
+        "title": "About Howard",
+        "href": "/"
+    },
+    {
+        "title": "Public Connection",
+        "href": "/public-connection",
+        "subNav": [{
+                "title": "Public Duty",
+                "href": "/public-duty"
+            },
+            {
+                "title": "Paper Reviewers",
+                "href": "/paper-reviewers"
+            }
+        ]
+    },
+    {
+        "title": "Awards",
+        "href": "/awards"
+    },
+    {
+        "title": "Courses Offered",
+        "href": "/courses-offered"
+    },
+    {
+        "title": "Fellow Students",
+        "href": "/fellow-students",
+        "subNav": [
+            {
+                "title": "Doctoral Degree",
+                "href": "/doctoral"
+            },
+            {
+                "title": "Master Degree",
+                "href": "/master"
+            }
+        ]
+    },
+    {
+        "title": "FYP",
+        "href": "/fyp"
+    },
+    {
+        "title": "3D Motion Lab",
+        "href": "/motion-lab"
+    },
+    {
+        "title": "Research Projects",
+        "href": "/research-projects"
+    },
+    {
+        "title": "Publications",
+        "href": "/publications",
+        "subNav": [
+            {
+                "title": "Conference",
+                "href": "/conference"
+            },
+            {
+                "title": "Editorship",
+                "href": "/editorship"
+            },
+            {
+                "title": "Journal",
+                "href": "/journal"
+            }
+        ]
+    }
+]

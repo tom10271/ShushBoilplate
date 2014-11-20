@@ -1,0 +1,88 @@
+[
+    {
+        "date": "2012/2013 Semester A",
+        "course": "CS4185/5185 Multimedia Technologies and Applications"
+    },
+    {
+        "date": "2011/2012 Semester B",
+        "course": "CS4367/5367 Computer Games Design"
+    },
+    {
+        "date": "2011/2012 Semester A",
+        "course": "CS4185/5185 Multimedia Technologies and Applications"
+    },
+    {
+        "date": "2010/2011 Semester B",
+        "course": "CS4367 Computer Games Design",
+        "content": "<a class=\"outerLink\" href=\"Teaching/CS4367-2011-SemB/AssignmentDemo1/index.html\">Assignment Demo 1</a> <br /><a class=\"outerLink\" href=\"Teaching/CS4367-2011-SemB/AssignmentDemo2/index.html\">Assignment Demo 2</a>"
+    },
+    {
+        "date": "2010/2011 Semester A",
+        "course": "CS4185/5185 Multimedia Technologies and Applications"
+    },
+    {
+        "date": "2009/2010 Semester B",
+        "course": "CS4367/5367 Computer Games Design",
+        "content": "<a class=\"outerLink\" href=\"Teaching/CS4367-5367-2010-SemB/index.html\">Selected Course Project</a>"
+    },
+    {
+        "date": "2009/2010 Semester A",
+        "course": "CS4185/5185 Multimedia Technologies and Applications",
+        "content": "<a class=\"outerLink\" href=\"Teaching/CS4185-5185-2010-SemA/index.html\">Selected Course Project</a>"
+    },
+    {
+        "date": "2008/2009 Semester B",
+        "course": "CS4367/5367 Computer Games Design",
+        "content": "<a class=\"outerLink\" href=\"Teaching/CS4367-5367-2009-SemB/index.html\">Course Project and Assignment Demos</a>"
+    },
+    {
+        "date": "2008/2009 Semester A",
+        "course": "CS4185/5185 Multimedia Technologies and Applications",
+        "content": "<a class=\"outerLink\" href=\"Teaching/CS4185-5185-2008-SemA/index.html\">Selected Course Projects</a>"
+    },
+    {
+        "date": "2007/2008 Semester B",
+        "course": "CS4367/5367 Computer Games Design",
+        "content": "<a class=\"outerLink\" href=\"Teaching/CS4367-5367-2008-SemB/index.html\">Selected Course Projects</a>"
+    },
+    {
+        "date": "2007/2008 Semester A",
+        "course": "CS4185/5185 Multimedia Technologies and Applications",
+        "content": "<a class=\"outerLink\" href=\"Teaching/CS4185-5185-2007-SemA/index.html\">Selected Course Projects</a>"
+    },
+    {
+        "date": "2006/2007 Semester B",
+        "course": "CS4367/5367 Computer Games Design",
+        "content": "<a class=\"outerLink\" href=\"Teaching/CS4367-5367-2007-SemB/index.html\">Selected Course Projects</a>"
+    },
+    {
+        "date": "2006/2007 Semester A",
+        "course": "CS4185/5185 Multimedia Technologies and Applications"
+    },
+    {
+        "date": "2005/2006 Semester B",
+        "course": "CS6483 Mobile Multimedia Systems"
+    },
+    {
+        "date": "2005/2006 Semester A",
+        "course": "CS2363 Computer Programming"
+    },
+    {
+        "date": "2004/2005 Semester B",
+        "course": "IT6902 Multimedia Technology"
+    },
+    {
+        "date": "2004/2005 Semester A",
+        "course": "IT4303 Multimedia Technologies and Applications",
+        "content": "<a target=\"_self\" href=\"Teaching/IT4303-2005-SemB/index.html\">Selected Course Projects</a>"
+    },
+    {
+        "date": "2003/2004 Semester B",
+        "course": "IT6302 Image Technology for Multimedia Applications on Internet <br /> IT5901 Computer Technology for Artists "
+    },
+    {
+        "date": "2003/2010 Semester A",
+        "course": "IT4303/5303 Multimedia Technologies and Applications"
+    }
+]
+

@@ -1,0 +1,8 @@
+[
+    {"img": "research/DanceEducationSytem.jpg", "link": "http://mocap.cs.cityu.edu.hk/Project/DanceEducationSystem_v2/index.html", "title": "Dance Education System with 3D Motion Capture Technology"},
+    {"img": "research/DanceLessonGeneration.jpg", "link": "http://mocap.cs.cityu.edu.hk/Project/DanceLessonGeneration/index.html", "title": " Dance Lesson Generation with 3D Motion Capture"},
+    {"img": "research/RepetitivePatterns.jpg", "link": "http://www.cs.cityu.edu.hk/~kttang/rep.html", "title": "Finding Repetitive Patterns in 3D Human Motion Captured Data"},
+    {"img": "research/PerceptualSimilarity.jpg", "link": "http://www.cs.cityu.edu.hk/~kttang/psim.html", "title": "Emulating Human Perception of Motion Similarity"},
+    {"img": "research/VACHE.jpg", "link": "http://vache.cs.cityu.edu.hk/", "title": "Virtual Assistant for Chinese Handwriting Education (VACHE)"},
+    {"img": "research/CHAT.jpg", "link": "http://vache.cs.cityu.edu.hk/chatweb/", "title": "Chinese Handwriting Assessment Tool (CHAT)"}
+] 

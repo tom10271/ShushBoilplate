@@ -1,0 +1,37 @@
+[
+    {
+        "img": "student/TN_HuZhihui.JPG",
+        "name": "Hu Zhihui",
+        "list": ["September 2006 - August 2010", "Thesis Title:<br>An Intelligent Chinese Handwriting Tool with Stroke Error Detection<br>漢字教學環境中的書寫錯誤識別技術研究"]
+    },
+    {
+        "img": "student/TN_JeffTang.JPG",
+        "name": "Jeff Tang Kai-Tai",
+        "list": ["May 2007 -September 2011", "Thesis Title:<br>Modeling of Mlisttiple Character Interactions for Motion Retrieval and Synthesis<br>多角色互動模型的建立及其在動作檢索和生成的應用", "Best Paper (Runner-up) in The<a class=\"outerLink\" href=\"http://casa2008.kaist.ac.kr/\">21st Annual Conference on Computer Animation and Social Agents (CASA 2008)</a>: Jeff K. T. Tang, Howard Leung, Taku Komura, Hubert P. H. Shum \"Emlistating human perception of motion similarity\", September 2008.<br>", "Lotfi Zadel Best Paper Award in The 6th International Conference on Machine Learning and Cybernetics (ICMLC 2007): Kai-Tai Tang and Howard Leung, \"Reconstructing Strokes And Writing Sequences From Chinese Character Images\", August 2007."]
+    },
+    {
+        "img": "student/TN_DengLiqun.JPG",
+        "name": "Deng Liqun",
+        "list": ["September 2008 - August 2012", "Thesis Title:<br>3D Mocap Data Recognition and Its Application on Interactive Dancing Game<br>三維人體動作識別及其在交互舞蹈系統上的應用", "Recipient of IAPR Travel Stipend (US$700) from The<a class=\"outerLink\" href=\"http://www.icpr2010.org/\">20th International Conference on Pattern Recognition (ICPR)</a>, August 2010"]
+    },
+    {
+        "img": "student/TN_YangYang.JPG",
+        "name": "Yang Yang",
+        "list": ["September 2008 - August 2012", "Thesis Title:<br>3D Motion Analysis and Its Application in Adaptive Dance Education System<br>三維動作分析及其在智能舞蹈教學系統中的應用", "Best Paper Award in The 9th International Conference on Web-Based Learning (ICWL 2010): Yang Yang, Howard Leung, Lihua Yue and Liqun Deng, \"Automatically Constructing a Compact Concept Map of Dance Motion with Motion Captured Data\", December 2010"]
+    },
+    {
+        "img": "student/TN_JackyChan.JPG",
+        "name": "Jacky Chan Chun-Pong",
+        "list": ["November 2009 - present", "Outstanding Academic Performance Award for Research Degree Students (2009-2010), November 2011", "<a class=\"outerLink\" href=\"http://mocap.cs.cityu.edu.hk/event20080414.html\">Outstanding Academic Papers by student/ (OAPS) award</a>,April 2008", "Recipient of Student Travel Grant (US$500) from the<a class=\"outerLink\" href=\"http://immerscom.org/2007/index.shtml\">    First IMMERSCOM Conference</a>, October 2007", "Bronze Award, Best Innovation &amp; Research (College &amp;Undergraduates) Award,<a class=\"outerLink\" href=\"http://mocap.cs.cityu.edu.hk/event20080121.html\">    Hong Kong ICT Awards 2007</a>", "Second grade award,<a class=\"outerLink\" href=\"http://mocap.cs.cityu.edu.hk/event20070629.html\">    2007 Amway Pan-Pearl River Delta Region Universities IT Project Competition</a>, June 2007"]
+    },
+    {
+        "img": "student/TN_ZhouLiuyang.JPG",
+        "name": "Zhou Liuyang",
+        "list": ["September 2010 - present"]
+    },
+    {
+        "img": "student/TN_YangLingling.JPG",
+        "name": "Yang Lingling",
+        "list": ["November 2010 - present"]
+    }
+]

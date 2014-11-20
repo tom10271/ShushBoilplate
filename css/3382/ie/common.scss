@@ -1,0 +1,18 @@
+body {
+    line-height: 1.2;
+    .nav-list {
+        ul {
+            top: -10pt;
+        }
+    }
+
+    section#mainContent, \:section#mainContent{
+        section.content, \:section.content{
+            section.wrap.items, \:section.wrap.items {
+                position: absolute;
+                bottom: 10pt;
+                top: 82pt;
+            }
+        }
+    }
+}

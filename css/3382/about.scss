@@ -1,0 +1,96 @@
+#home {
+    span.name {
+        font-size: 36pt;
+        color: $title;
+    }
+
+    span.edu {
+        font-style: italic;
+        color: $textM;
+    }
+
+    img {
+        width: 100%;
+        + div.data-row {
+            position: absolute;
+            top: 80%;
+            right: 10pt;
+            background-color: $panelBG;
+            padding: 10pt;
+        }
+    }
+
+    section.panel, \:section.panel {
+        display: inline-block;
+        padding: 10pt;
+        background-color: $panelBG;
+        position: relative;
+    }
+
+    div.data-row {
+        margin: 5pt 0;
+    }
+
+    span.label {
+        width: 130pt;
+        text-align: right;
+        padding-right: 10pt;
+        font-size: 16pt;
+    }
+
+    span.data, span.label {
+        display: table-cell;
+    }
+
+    article, \:article {
+        margin-top: 20pt;
+        text-align: justify;
+        font-size: 16pt;
+    }
+
+    #image {
+        width: 80%;
+        position: fixed;
+
+        @include responsive('human') {
+            position: relative;
+            width: 95%;
+        }
+    }
+
+    #info {
+        width: 80%;
+        position: fixed;
+        line-height: 1.7em;
+        left: auto;
+        right: auto;
+
+        span.label{
+            color: black;
+        }
+
+        .item{
+            @include transition(all, .3s, ease-in);
+        }
+
+        .item:hover{
+            @include transition(all, .3s, ease-in);
+            background: #efefef;
+        }
+
+        @include responsive("human") {
+            position: absolute;
+            right: 25pt;
+            left: 15pt;
+            width: 89%;
+        }
+
+        @include responsive("midget") {
+            position: relative;
+            top: auto;
+            left: auto;
+            bottom: auto;
+            right: auto;
+        }
+    }
+}
