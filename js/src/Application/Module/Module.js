@@ -1,31 +1,41 @@
 (function (define, angular) {
     "use strict";
 
-    define([
-        'Application/Module/service/SharedAppData',
-        'Application/Module/services/SharedAppData',
-        'Application/Module/controllers/HeadController',
-        'Application/Module/controllers/TestingController',
-        'Application/Module/directives/TestingDirective',
-    ],
-        function (SharedAppData, HeadController, TestingController, TestingDirective) {
-            var moduleName = "3382.page";
+    var dependencies = [
+        '/services/Notification',
+        '/services/SharedAppData',
+        '/controllers/HeadController',
+        '/controllers/TestingController',
+        '/directives/TestingDirective',
+        '/Routing'
+    ];
 
-            angular.module(moduleName, ["ngAnimate"])
-                .factory("SharedAppData", SharedAppData)
-                .controller("HeadController", HeadController)
-                .controller("TestingController", TestingController)
-                .directive("testingDirective", TestingDirective)
-                .filter('array', function() {
-                    return function(items) {
+    dependencies.insertStringBefore('Application/Module');
+
+    define(dependencies,
+        function (Notification, SharedAppData, HeadController, TestingController, TestingDirective, Routing) {
+            var moduleName = "3382.page", _services = [], _controllers = [], _directives = [];
+
+            var _module = angular.module(moduleName, ["ngAnimate", 'ui.router'])
+                .filter('array', function () {
+                    return function (items) {
                         var filtered = [];
-                        angular.forEach(items, function(item) {
+                        angular.forEach(items, function (item) {
                             filtered.push(item);
                         });
                         return filtered;
                     };
-                });
+                })
+                .config(Routing);
+
+            _services.push(Notification, SharedAppData);
+            _controllers.push(HeadController);
+            _directives.push(TestingDirective);
+
+            angular.addFactories(_module, _services)
+                .addControllers(_module, _controllers)
+                .addDirectives(_module, _directives);
 
             return moduleName;
-    });
+        });
 }(define, angular));

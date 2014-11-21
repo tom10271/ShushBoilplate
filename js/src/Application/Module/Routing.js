@@ -2,7 +2,6 @@
     define([''], function () {
         var RoutingConf = function ($sceDelegateProvider, $routeProvider, $locationProvider, RestangularProvider) {
             var baseURL = baseDir + '/js/src/Application/';
-            console.log(baseDir);
 
             $sceDelegateProvider.resourceUrlWhitelist([
                 'self', baseURL + '**'

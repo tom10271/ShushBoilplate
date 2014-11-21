@@ -1,10 +1,19 @@
-;
-(function ($) {
-    $.fn.extend({
-        NewFunction: function () {
-            return $(this).each(function () {
-
-            });
-        }
-    });
+;
+
+(function ($) {
+
+    $.fn.extend({
+
+        NewFunction: function () {
+
+            return $(this).each(function () {
+
+
+
+            });
+
+        }
+
+    });
+
 })(jQuery);

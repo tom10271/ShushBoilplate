@@ -1,12 +1,9 @@
 (function (define) {
     define([''], function () {
         var Service = EventDispatcher.extend({
-            _name: 'SharedAppData',
+            _name: 'Notification',
             _function: function(){
-                var a = {};
-                a.baseURL = window.baseDir;
-                a.data = {val: "asdasd"};
-                return a;
+                this.notify = this.dispatchEvent;
             }
         });
 

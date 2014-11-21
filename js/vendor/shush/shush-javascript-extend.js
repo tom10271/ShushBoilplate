@@ -1,0 +1,1 @@
+Array.prototype.insertStringBefore = function(str){    for(var i=0; i< this.length; i++){        if(angular.isString(this[i])){            this[i] = this[i].insertBefore(str);        } else {            console.log("Type of "+ this[i] + " is not string: " + typeof this[i]);        }    }}String.prototype.insertBefore = function(str){    return str + this;}
