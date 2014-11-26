@@ -8,13 +8,14 @@
         '/controllers/TestingController',
         '/directives/TestingDirective',
         '/Routing'
-    ];
+    ],
+        moduleName = "3382.page";
 
     dependencies.insertStringBefore('Application/Module');
 
     define(dependencies,
         function (Notification, SharedAppData, HeadController, TestingController, TestingDirective, Routing) {
-            var moduleName = "3382.page", _services = [], _controllers = [], _directives = [];
+            var _services = [], _controllers = [], _directives = [];
 
             var _module = angular.module(moduleName, ["ngAnimate", 'ui.router'])
                 .filter('array', function () {
@@ -32,7 +33,8 @@
             _controllers.push(HeadController);
             _directives.push(TestingDirective);
 
-            angular.addFactories(_module, _services)
+            angular
+                .addFactories(_module, _services)
                 .addControllers(_module, _controllers)
                 .addDirectives(_module, _directives);
 
