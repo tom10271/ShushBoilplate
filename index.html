@@ -38,7 +38,7 @@
 	<title>{{ title }}</title>
 </head>
 <body>
-<section class="content-block">
+<section animate-when-hover="{show: '.content-block'}" class="content-block">
     <h1>Title</h1>
     <ul>
         <li><span>Client: </span><span class="html-vg"></span><span>City University of Hong Kong Press Ltd.</span></li>
@@ -51,6 +51,7 @@
     </section>
 </section>
 
+<section ui-view></section>
 <!--<section class="content-block">-->
     <!--<h1></h1>-->
     <!--<ul>-->
@@ -65,52 +66,33 @@
 <!--</section>-->
 
 
-<!--
-<div data-flex-background-src="/CityU/ShushBoilplate/img/background.jpg" flex-background></div>
-<section class="voiceCommand" ng-if="showHints" style="display: none">
-    <section class="wrap">
-        <button ng-click="showHints = false">Dismiss</button>
-        <h1>Voice Commands</h1>
-
-        <p>If you are using browser support HTML5 Speech Recognition API, you may use the following voice commands
-            tobrowse our site by giving commands via microphone device. <br/> The following list is commands available:
-        </p>
-        <ul>
-            <li>Show: Show all commands available to call.</li>
-            <li>Hide: Hide all commands available to call.</li>
-            <li>Switch to ***: Switch to other page.</li>
-        </ul>
-    </section>
-</section>
-<section id="skrollr-body">
-    <header class="head" set-to-win-h="0" show-selected-when-hover="{'show': 'nav'}"
-            ng-controller="NavigationController">
-        <nav>
-            <ul>
-                <li ng-repeat="nav in navs" fix-anchor-tag>
-                    <section class="item">
-                        <section class="wrap"><a href="{{ baseURL }}{{ nav.href }}">{{ nav.title }}</a></section>
-                        <section class="background"></section>
-                    </section>
-                    <section class="nav-list">
-                        <ul ng-if="nav.subNav.length >0">
-                            <li ng-repeat="subNav in nav.subNav" fix-anchor-tag>
-                                <section class="item">
-                                    <section class="wrap"><a href="{{ baseURL }}{{ nav.href }}{{ subNav.href }}">{{
-                                        subNav.title }}</a></section>
-                                    <section class="background"></section>
-                                </section>
-                            </li>
-                        </ul>
-                    </section>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section ui-view class="showExpand" id="mainContent"></section>
-</section>
-
--->
+<!--<div data-flex-background-src="/CityU/ShushBoilplate/img/background.jpg" flex-background></div>-->
+<!--<section id="skrollr-body">-->
+    <!--<header class="head" set-to-win-h="0" show-selected-when-hover="{'show': 'nav'}" ng-controller="NavigationController">-->
+        <!--<nav>-->
+            <!--<ul>-->
+                <!--<li ng-repeat="nav in navs" fix-anchor-tag>-->
+                    <!--<section class="item">-->
+                        <!--<section class="wrap"><a href="{{ baseURL }}{{ nav.href }}">{{ nav.title }}</a></section>-->
+                        <!--<section class="background"></section>-->
+                    <!--</section>-->
+                    <!--<section class="nav-list">-->
+                        <!--<ul ng-if="nav.subNav.length >0">-->
+                            <!--<li ng-repeat="subNav in nav.subNav" fix-anchor-tag>-->
+                                <!--<section class="item">-->
+                                    <!--<section class="wrap"><a href="{{ baseURL }}{{ nav.href }}{{ subNav.href }}">-->
+										<!--{{ subNav.title }}</a></section>-->
+                                    <!--<section class="background"></section>-->
+                                <!--</section>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+                    <!--</section>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</nav>-->
+    <!--</header>-->
+    <!--<section ui-view class="showExpand" id="mainContent"></section>-->
+<!--</section>-->
 <script type="text/javascript">
     if (!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
         window.skrollrRef = skrollr.init({forceHeight: true, smoothScrolling: true});

@@ -1,31 +1,52 @@
 (function (define) {
-    define([''], function () {
-        var RoutingConf = function ($sceDelegateProvider, $routeProvider, $locationProvider, RestangularProvider) {
-        //Template base URL
+    define(['Application/Module/NavigationData'], function (NavigationData) {
+        var RoutingConf = function ($sceDelegateProvider, $stateProvider, $urlRouterProvider, $locationProvider, RestangularProvider) {
+            //Template base URL
             var baseURL = baseDir + '/js/src/Application/';
 
-        //Resouce white list
+            //Resouce white list
             $sceDelegateProvider.resourceUrlWhitelist([
                 'self', baseURL + '**'
             ]);
 
-        //Disable HTNL5 mode for routing -> use/#someRouting instead
-            if($("html").hasClass("ie8") || $("html").hasClass("ie9"))
+            //Disable HTNL5 mode for routing -> use/#someRouting instead
+            if ($("html").hasClass("ie8") || $("html").hasClass("ie9"))
                 $locationProvider.html5Mode(false);
             else
                 $locationProvider.html5Mode(true);
 
-        //Routing
-            $routeProvider
-                .when(baseDir + '/', {controller: 'TestingController', templateUrl: baseURL + 'Module/templates/testing.tpl.html'})
-
-                .otherwise({
-                    redirectTo: baseDir + '/'
+            //Routing
+            function registerNavigationData($stateProvider, nav) {
+                $stateProvider.state(nav.state, {
+                    url: nav.data.url,
+                    templateURL: baseURL + 'templates/' + nav.data.templateURL + '.tpl.html',
+                    controller: nav.data.controller
                 });
 
-        //RESTful API base URL
+                for (var i = 0; i < nav.child.length; i++) {
+                    registerNavigationData($stateProvider, nav.child[i]);
+                }
+            }
+
+            for (var i = 0; i < NavigationData.length; i++) {
+                registerNavigationData($stateProvider, NavigationData[i]);
+            }
+
+            $urlRouterProvider.otherwise(baseDir+'/');
+
+            //RESTful API base URL
             RestangularProvider.setBaseUrl(baseDir + '/api');
         }
-        return [ "$sceDelegateProvider", "$routeProvider", "$locationProvider", "RestangularProvider", RoutingConf ];
+        return [ "$sceDelegateProvider", "$stateProvider", "$urlRouterProvider", "$locationProvider", "RestangularProvider", RoutingConf ];
     });
 })(define);
+
+
+/*
+ $routeProvider
+ .when(baseDir + '/', {controller: 'TestingController', templateUrl: baseURL + 'Module/templates/testing.tpl.html'})
+
+ .otherwise({
+ redirectTo: baseDir + '/'
+ });
+ */

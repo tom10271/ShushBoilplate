@@ -2,7 +2,7 @@ Options +FollowSymLinks
 IndexIgnore */*
 RewriteEngine on
 
-ErrorDocument 404 /cs3382/index.html
+ErrorDocument 404 /CityU/ShushBoilplate/index.html
 
 # if a directory or a file exists, use it directly
 RewriteCond %{REQUEST_FILENAME} -s [OR]
@@ -13,4 +13,4 @@ RewriteRule ^.*$ - [NC,L]
 
 # otherwise forward it to index.html
 #RewriteRule ^.*$ - [NC,L]
-RewriteRule ^/(.*) /cs3382/$1 [NC,L]
+RewriteRule ^/(.*) /CityU/ShushBoilplate/$1 [NC,L]

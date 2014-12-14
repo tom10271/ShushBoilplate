@@ -2,7 +2,7 @@
     define([''], function () {
         var Service = EventDispatcher.extend({
             _name: 'Notification',
-            _function: function(){
+            _component: function(){
                 this.notify = this.dispatchEvent;
             }
         });

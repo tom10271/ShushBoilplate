@@ -12,7 +12,7 @@ if (typeof angular != undefined && angular) {
 
     angular.addFactories = function (_module, components) {
         insertComponent(_module, components, function (_module, component) {
-            _module.factory(component._name, component._function);
+            _module.factory(component._name, component._component);
         });
 
         return this;
@@ -20,7 +20,7 @@ if (typeof angular != undefined && angular) {
 
     angular.addControllers = function (_module, components) {
         insertComponent(_module, components, function (_module, component) {
-            _module.controller(component._name, component._function);
+            _module.controller(component._name, component._component);
         });
 
         return this;
@@ -28,7 +28,7 @@ if (typeof angular != undefined && angular) {
 
     angular.addDirectives = function (_module, components) {
         insertComponent(_module, components, function (_module, component) {
-            _module.directive(component._name, component._function);
+            _module.directive(component._name, component._component);
         });
 
         return this;
@@ -36,7 +36,7 @@ if (typeof angular != undefined && angular) {
 
     angular.addAnimations = function (_module, components) {
         insertComponent(_module, components, function (_module, component) {
-            _module.animation(component._name, component._function);
+            _module.animation(component._name, component._component);
         });
 
         return this;

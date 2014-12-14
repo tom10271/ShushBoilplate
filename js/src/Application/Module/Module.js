@@ -5,6 +5,7 @@
         '/services/Notification',
         '/services/SharedAppData',
         '/controllers/HeadController',
+        '/controllers/PageController',
         '/controllers/TestingController',
         '/directives/TestingDirective',
         '/Routing'
@@ -14,7 +15,7 @@
     dependencies.insertStringBefore('Application/Module');
 
     define(dependencies,
-        function (Notification, SharedAppData, HeadController, TestingController, TestingDirective, Routing) {
+        function (Notification, SharedAppData, HeadController, PageController, TestingController, TestingDirective, Routing) {
             var _services = [], _controllers = [], _directives = [];
 
             var _module = angular.module(moduleName, ["ngAnimate", 'ui.router'])
@@ -30,7 +31,7 @@
                 .config(Routing);
 
             _services.push(Notification, SharedAppData);
-            _controllers.push(HeadController);
+            _controllers.push(HeadController, PageController);
             _directives.push(TestingDirective);
 
             angular

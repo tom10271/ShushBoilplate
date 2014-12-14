@@ -1,8 +1,6 @@
 (function (define) {
     "use strict";
-
     define([''], function () {
-
         var flexBackground = function ($window) {
             return {
                 scope: {},
